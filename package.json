@@ -1,0 +1,31 @@
+{
+  "name": "hapi-massive-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -D -t 80",
+    "test-cov-html": "lab -r html -o coverage.html"
+  },
+  "author": "Stacy Jeptha",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "boom": "^3.1.2",
+    "good": "^6.6.3",
+    "good-console": "^5.3.2",
+    "hapi": "^13.2.1",
+    "hapi-massive": "^1.0.2",
+    "hoek": "^3.0.4",
+    "joi": "^8.0.5",
+    "massive": "^2.2.0",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "code": "^2.2.0",
+    "lab": "^10.3.1",
+    "proxyquire": "^1.7.4",
+    "sinon": "^1.17.3",
+    "sinon-stub-promise": "^2.0.0"
+  }
+}
